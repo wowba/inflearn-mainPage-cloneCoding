@@ -1,4 +1,4 @@
-# [프로그래머스](https://www.inflearn.com/) 메인페이지 클론코딩
+# [프로그래머스](https://programmers.co.kr/) 메인페이지 클론코딩
 
 ## Stack
 <p align="left">
