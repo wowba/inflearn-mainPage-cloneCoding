@@ -59,10 +59,16 @@
   max-width: 7.5rem;
   margin-right: 0.8125rem;
 }
+.right-section__username:hover {
+  cursor: pointer;
+}
 
 .right-section__alarm {
   width: 24px;
   opacity: 0.6;
+}
+.right-section__alarm:hover {
+  cursor: pointer;
 }
 
 .bottom-section {
