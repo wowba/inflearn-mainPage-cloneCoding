@@ -1,5 +1,9 @@
+/* CSS Reset */
 @import url("reset.css");
+/* Header */
 @import url("header.css");
+/* Banner */
+@import url("banner.css");
 
 body {
   display: flex;

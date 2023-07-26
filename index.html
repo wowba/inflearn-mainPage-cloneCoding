@@ -5,14 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>프로그래머스</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Swiper 라이브러리 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <!-- font / CSS / Favicon -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
   <link rel="shortcut icon" type="images/x-icon" href="assets/Favicon/Favicon.ico">
   <link rel="stylesheet" href="css/main.css">
-  <script src="js/index.js" type="module"></script>
+  <!-- JS -->
+  <script type="module" src="js/index.js"></script>
 </head>
 
 <body>
-
+  <!-- Header -->
   <header class="header">
 
     <div class="top-section">
@@ -57,13 +63,13 @@
         <a class="left-section__a left-section__a--light" href="#">코딩테스트 연습</a>
         <a class="left-section__a left-section__a--light" href="#">코딩역량인증시험</a>
       </div>
-  
+
       <div class="right-section">
         <span class="right-section__username">이영욱 님</span>
         <img class="right-section__alarm" src="assets/Alarm/notification.png" alt="alarm">
       </div>
     </div>
-  
+
     <div class="bottom-section">
       <div class="left-section">
         <a class="left-section__a left-section__a--light left-section__a--bottom" href="#">스킬체크</a>
@@ -73,6 +79,80 @@
     </div>
 
   </header>
+
+  <!-- Banner -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide swiper-slide--1">
+        <div class="banner-wrapper">
+          <div class="banner-text">
+            <p class="banner-text__label">데브코스</p>
+            <p class="banner-text__title">서비스 배포까지 배우는</p>
+            <p class="banner-text__title">인공지능 데브코스</p>
+            <p class="banner-text__sub-title">지원서 접수 : ~ 8/2(수) 자정까지</p>
+          </div>
+          <img class="banner-wrapper__img" src="assets/Banner/Banner1.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide swiper-slide--2">
+        <div class="banner-wrapper">
+          <div class="banner-text">
+            <p class="banner-text__label">데브코스</p>
+            <p class="banner-text__title">수강생이 인정하는 커리큘럼!</p>
+            <p class="banner-text__title">프론트엔드 데브코스</p>
+            <p class="banner-text__sub-title">지원서 접수 : ~ 8/8(화) 자정까지</p>
+          </div>
+          <img class="banner-wrapper__img" src="assets/Banner/Banner2.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide swiper-slide--3">
+        <div class="banner-wrapper">
+          <div class="banner-text">
+            <p class="banner-text__label">데브코스</p>
+            <p class="banner-text__title">고성능 실습용 차량 자이카를</p>
+            <p class="banner-text__title">직접 제어하며 배우는 자율주행</p>
+            <p class="banner-text__sub-title">지원서 접수 : ~ 8/25(금) 오후 5시까지</p>
+          </div>
+          <img class="banner-wrapper__img" src="assets/Banner/Banner3.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide swiper-slide--4">
+        <div class="banner-wrapper">
+          <div class="banner-text banner-text--black">
+            <p class="banner-text__label">PCCP.E</p>
+            <p class="banner-text__title">코딩역량인증시험(PCCP, PCCE)</p>
+            <p class="banner-text__title">소지자 우대사항이 있는 채용 포지션</p>
+            <p class="banner-text__sub-title">채용 진행 중인 개발자 포지션을 소개합니다.</p>
+          </div>
+          <img class="banner-wrapper__img" src="assets/Banner/Banner4.png" alt="">
+        </div>
+      </div>
+      <div class="swiper-slide swiper-slide--5">
+        <div class="banner-wrapper">
+          <div class="banner-text">
+            <p class="banner-text__label">강의</p>
+            <p class="banner-text__title">마키나락스 개발자가 알려주는 MLOps</p>
+            <p class="banner-text__title">STEP 01 / 02 / 03</p>
+            <p class="banner-text__sub-title">풍부한 실무 경험과 교육 경험을 겸비한 강사와 함께<br/>단계별 학습으로 실전 스킬 UP</p>
+          </div>
+          <img class="banner-wrapper__img" src="assets/Banner/Banner5.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="prev-next-button">
+      <button class="prev-next-button__prev">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M561-240 320-481l241-241 43 43-198 198 198 198-43 43Z"/></svg>
+      </button>
+      <div class="pagination">
+        <span class="pagination__text pagination__text--curIdx">1</span>
+        <span class="pagination__divide"></span>
+        <span class="pagination__text">5</span>
+      </div>
+      <button class="prev-next-button__next">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M530-481 332-679l43-43 241 241-241 241-43-43 198-198Z"/></svg>      
+      </button>
+    </div>
+  </div>
 
 </body>
 
