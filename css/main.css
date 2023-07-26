@@ -4,6 +4,8 @@
 @import url("header.css");
 /* Banner */
 @import url("banner.css");
+/* Navigation */
+@import url("navigation.css");
 
 body {
   display: flex;
