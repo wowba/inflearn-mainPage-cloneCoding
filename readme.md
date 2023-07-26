@@ -16,6 +16,7 @@
   - header 구현
 - 2023.07.26
   - banner 구현
+  - navigation 구현
 
 ## 생략한 JS
 - header
