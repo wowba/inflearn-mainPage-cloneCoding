@@ -13,10 +13,13 @@
 - 2023.07.24 
   - 리포지토리 생성 및 폴더 세팅
 - 2023.07.25
-  - header 구현
+  - Header 구현
 - 2023.07.26
-  - banner 구현
+  - Banner 구현
   - navigation 구현
+- 2023.07.27
+  - Main 구현
+  - Footer 구현
 
 ## 생략한 JS
 - header
