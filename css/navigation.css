@@ -1,6 +1,7 @@
 .navigation {
   display: flex;
   margin-top: 40px;
+  gap: 8px;
 }
 
 .nav-box {
