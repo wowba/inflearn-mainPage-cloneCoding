@@ -1,5 +1,8 @@
 # [프로그래머스](https://programmers.co.kr/) 메인페이지 클론코딩
 
+## 클론코딩 구현 링크
+[https://programmers-main-page-clone-coding.vercel.app/](https://programmers-main-page-clone-coding.vercel.app/)
+
 ## Stack
 <p align="left">
   <img src="https://img.shields.io/badge/Html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
@@ -13,6 +16,9 @@
 - image slider
   - 원본 사이트에서 이미지 슬라이더를 구현하기 위해 사용한 Swiper 라이브러리 적용
   - Swiper의 slideChange 이벤트를 활용하여 DOM 조작 
+
+## 반응형 구현
+- 데스크탑 기준인 1024px을 기준으로 Header, Banner, Main에 미디어 쿼리를 사용했습니다.
 
 ## Update
 - 2023.07.24 
@@ -28,4 +34,4 @@
   - Footer 구현
 - 2023.07.28
   - Banner. Main 반응형 구현
-  - Navigation CSS 수정
+  - 기타 CSS 수정
