@@ -33,5 +33,5 @@
   - Main 구현
   - Footer 구현
 - 2023.07.28
-  - Banner. Main 반응형 구현
-  - 기타 CSS 수정
+  - Banner, Main 반응형 구현
+  - 기타 HTML, CSS 수정
