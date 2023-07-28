@@ -70,6 +70,10 @@
 
   border: 1px solid #dce1e5;
   border-radius: 16px;
+  transition: border-color .2s;
+}
+.main-section-content:hover {
+  border: 1px solid gray;
 }
 
 .main-section-content__info {
