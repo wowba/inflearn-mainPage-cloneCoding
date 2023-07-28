@@ -5,4 +5,6 @@
   --banner-image-height--desktop: calc(800px / 2);
   --indicator-height: 32px;
   --margin-from-indicator: 24px;
+  --banner-height--tablet: 430px;
+  --banner-image-height--tablet: calc(510px / 2);
 }
