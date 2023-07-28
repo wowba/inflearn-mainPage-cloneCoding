@@ -9,19 +9,23 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </p>
 
+## 추가한 JS
+- image slider
+  - 원본 사이트에서 이미지 슬라이더를 구현하기 위해 사용한 Swiper 라이브러리 적용
+  - Swiper의 slideChange 이벤트를 활용하여 DOM 조작 
+
 ## Update
 - 2023.07.24 
   - 리포지토리 생성 및 폴더 세팅
 - 2023.07.25
   - Header 구현
+  - Header 반응형 추가
 - 2023.07.26
   - Banner 구현
   - navigation 구현
 - 2023.07.27
   - Main 구현
   - Footer 구현
-
-## 추가한 JS
-- image slider
-  - 원본 사이트에서 이미지 슬라이더를 구현하기 위해 사용한 Swiper 라이브러리 적용
-  - Swiper의 slideChange 이벤트를 활용하여 DOM 조작 
+- 2023.07.28
+  - Banner. Main 반응형 구현
+  - Navigation CSS 수정
