@@ -354,3 +354,9 @@
   line-height: 1.5;
   margin-bottom: 2px;
 }
+
+@media (max-width: 1024px) {
+  .main-section-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
