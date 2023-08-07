@@ -7,4 +7,5 @@
   --margin-from-indicator: 24px;
   --banner-height--tablet: 430px;
   --banner-image-height--tablet: calc(510px / 2);
+  --hover-color: gainsboro;
 }

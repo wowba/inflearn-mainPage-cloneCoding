@@ -1,3 +1,5 @@
+@import url("variable.css");
+
 .navigation {
   display: flex;
   margin-top: 40px;
@@ -32,7 +34,7 @@
   transition: background-color .2s;
 }
 .nav-box__logo:hover {
-  background-color: gainsboro;
+  background-color:var(--hover-color);
 }
 
 .nav-box__title {

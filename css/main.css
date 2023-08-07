@@ -282,7 +282,7 @@
   transition: background-color .2s;
 }
 .main-section-program__detail > a:hover {
-  background-color: gainsboro;
+  background-color: var(--hover-color);
 }
 
 .main-section-position {
