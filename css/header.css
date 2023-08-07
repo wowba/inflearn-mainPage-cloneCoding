@@ -22,11 +22,6 @@
   align-items: center;
 }
 
-.left-section-list {
-  display: flex;
-  align-items: center;
-}
-
 .left-section__a {
   margin: 0 2rem 0 0;
 }
